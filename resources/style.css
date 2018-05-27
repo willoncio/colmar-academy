@@ -112,7 +112,7 @@ header.mobile {
 
 /* Media queries for mobile */
 
-
+    /* Navigation */
 
 @media only screen and (max-width: 700px) {
   header.mobile {
@@ -138,6 +138,28 @@ header ul {
 
   header.desktop {
     display: none;
+  }
+
+  /* Hero teaser */
+
+  .side-teasers {
+    width: 100%;
+      padding: 2rem 1rem;
+      border: solid pink 5px;
+  }
+
+  .hero-container {
+    flex-direction: column;
+  }
+
+  .header-button {
+    background-color: #9B9B9B;
+    width: 100%;
+  }
+
+  .hero-teaser {
+    width: 100%;
+    padding: 0;
   }
 
 }
