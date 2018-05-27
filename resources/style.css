@@ -114,7 +114,7 @@ header.mobile {
 
     /* Navigation */
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   header.mobile {
     align-items: center;
     display: flex;
@@ -144,8 +144,8 @@ header ul {
 
   .side-teasers {
     width: 100%;
-      padding: 2rem 1rem;
-      border: solid pink 5px;
+    padding: 2rem 1rem;
+    border: solid pink 5px;
   }
 
   .hero-container {
