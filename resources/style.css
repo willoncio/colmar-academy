@@ -81,8 +81,12 @@ header.mobile {
 
 .hero-text-section {
   justify-content: center;
-  padding-right: 2rem;
-  width: 23%;
+  width: 35%;
+}
+
+.hero-text-container {
+  padding-right: 8rem;
+  padding-left: 0.5rem;
 }
 
 .header-button {
@@ -113,24 +117,27 @@ header.mobile {
 }
 
 .side-teasers {
-  width: 40%;
+  width: 37%;
 
 }
 
 
 /* Secondary teaser */
 
-.side-teaser
-
+.side-teaser {
+  flex-direction: column;
+  width: inherit;
+}
 
 .image-side-teaser {
   padding: 1rem;
-  width: 35%;
+  width: 37%;
   height: auto;
 }
 
 .image-side-teaser img {
-  width: auto;
+  width: 100%;
+  height: 100%;
 }
 
 .side-teaser-text {
