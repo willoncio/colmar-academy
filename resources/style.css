@@ -2,6 +2,17 @@ html {
   font-size: 16px;
 }
 
+/* General settings */
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
 
 /*Header section */
 
@@ -44,7 +55,6 @@ header ul li {
   color: black;
 }
 
-
 header.mobile {
   display: none;
 }
@@ -54,7 +64,6 @@ header.mobile {
 
 .hero-container {
   display: flex;
-
 }
 
 .hero-teaser {
@@ -70,10 +79,8 @@ header.mobile {
   background-color: #D8D8D8;
 }
 
-.side-teasers {
-  display: flex;
+.hero-text-section {
   justify-content: center;
-  flex-direction: column;
   padding-right: 2rem;
   width: 23%;
 }
@@ -90,25 +97,45 @@ header.mobile {
     color: white;
 }
 
-.side-teasers p, .side-teasers h1 {
+.hero-text-section p, .hero-text-section h1 {
   margin-bottom: 2rem;
   color: #4A4A4A;
 }
 
-.side-teasers h1 {
+.hero-text-section h1 {
   font-size: 2.5rem;
   font-weight: bold;
 }
 
-.side-teasers p {
+.hero-text-section p {
   font-size: 1.5rem;
   font-weight: 300;
 }
 
+.side-teasers {
+  width: 40%;
+
+}
 
 
+/* Secondary teaser */
+
+.side-teaser
 
 
+.image-side-teaser {
+  padding: 1rem;
+  width: 35%;
+  height: auto;
+}
+
+.image-side-teaser img {
+  height: auto;
+}
+
+.side-teaser-text {
+  width: 65%;
+}
 
 /* Media queries for mobile */
 
@@ -136,13 +163,13 @@ header ul {
 
   }
 
-  header.desktop {
+  .no-mobile {
     display: none;
   }
 
   /* Hero teaser */
 
-  .side-teasers {
+  .hero-text-section {
     width: auto;
     padding: 2rem 1rem;
   }
