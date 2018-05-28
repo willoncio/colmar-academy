@@ -130,7 +130,7 @@ header.mobile {
 }
 
 .image-side-teaser img {
-  height: auto;
+  width: auto;
 }
 
 .side-teaser-text {
