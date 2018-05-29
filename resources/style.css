@@ -1,5 +1,22 @@
 html {
   font-size: 16px;
+  font-family: 'Space Mono', monospace;
+}
+
+h2 {
+  padding: 2rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  padding: 0.5rem 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+p, span {
+  line-height: 1.5rem;
 }
 
 /* General settings */
@@ -68,7 +85,7 @@ header.mobile {
 
 .hero-teaser {
   width: 60%;
-  padding: 2rem 1.5rem;
+  padding: 2rem 1rem;
 }
 
 .hero-teaser img {
@@ -86,7 +103,7 @@ header.mobile {
 
 .hero-text-container {
   padding-right: 8rem;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
 }
 
 .header-button {
@@ -118,6 +135,7 @@ header.mobile {
 
 .side-teasers {
   width: 37%;
+  padding-top: 1rem;
 
 }
 
@@ -125,7 +143,7 @@ header.mobile {
 /* Secondary teaser */
 
 .side-teaser {
-
+  border-bottom: 1px solid #D8D8D8;
 }
 
 .image-side-teaser {
@@ -139,7 +157,21 @@ header.mobile {
 }
 
 .side-teaser-text {
+  display: flex;
   flex-grow: 1;
+  justify-content: center;
+  flex-direction: column;
+  width: 55%;
+}
+
+.gray-boder-right {
+  border-right: 1px solid #D8D8D8;
+}
+
+.text-cite {
+  font-size: 0.8rem;
+  padding: 2rem 0 2rem;
+  letter-spacing: -0.5px;
 }
 
 /* Media queries for mobile */
