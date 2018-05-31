@@ -30,6 +30,9 @@ p, span {
   display: flex;
 }
 
+.mobile {
+  display: none;
+}
 
 /*Header section */
 
@@ -224,5 +227,29 @@ header ul {
     width: 100%;
     padding: 0;
   }
+
+  .hero-text-container {
+    padding: 0;
+  }
+
+  .side-teasers {
+    width: auto;
+  }
+
+  .side-teaser {
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 1rem;
+  }
+
+  .image-side-teaser {
+    padding: 0;
+    width: 100%;
+  }
+
+  .side-teaser-text {
+    width: auto;
+  }
+
 
 }
