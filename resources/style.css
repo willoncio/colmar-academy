@@ -251,5 +251,12 @@ header ul {
     width: auto;
   }
 
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: flex;
+  }
 
 }
