@@ -34,6 +34,14 @@ p, span {
   display: none;
 }
 
+.white-background {
+  background-color: white;
+}
+
+.side-teaser.no-border-bottom {
+  border-bottom: none;
+}
+
 /*Header section */
 
 header {
@@ -173,7 +181,7 @@ header.mobile {
 
 .text-cite {
   font-size: 0.8rem;
-  padding: 2rem 0 2rem;
+  padding: 2rem 0 0;
   letter-spacing: -0.5px;
 }
 
@@ -181,7 +189,7 @@ header.mobile {
 
   .full-width {
     background-color: gray;
-    width: 100%;
+    width: auto;
     padding: 2rem 4.5rem;
   }
 
@@ -192,17 +200,51 @@ header.mobile {
 
   .teaser-group {
     padding: 2rem 0;
-    justify-content: space-between;
   }
 
   .single-teaser-group {
-    width: 30%;
+    width: 32%;
     background-color: white;
+    padding-bottom: 1.5rem;
   }
 
   .single-teaser-image img {
     width: 100%;
     height: auto;
+  }
+
+  .teaser-row {
+    justify-content: space-between;
+  }
+
+  .second {
+    padding-top: 1rem;
+  }
+  .single-teaser-group h3, .single-teaser-group span {
+    padding: 0 1rem;
+  }
+
+  .single-teaser-group h3 {
+    padding: 1rem 1rem;
+  }
+
+  .single-teaser-group span {
+    padding-top: 0.5rem;
+  }
+
+
+/* Video section */
+
+  .full-width.white-background {
+    background-color: white;
+  }
+
+  .side-teasers, .hero-teaser {
+    padding-top: 0;
+  }
+
+  .side-teaser.no-border-bottom {
+    border-bottom: none;
   }
 
 
@@ -263,6 +305,7 @@ header ul {
 
   .side-teasers {
     width: auto;
+    padding-top: 0;
   }
 
   .side-teaser {
@@ -296,6 +339,45 @@ header ul {
 
   .side-teaser.grey-background {
     background-color: white;
+  }
+
+  /* 6teasers group mobile queries */
+
+  .single-teaser-group .single-teaser-image, .single-teaser-group span {
+    display: none;
+  }
+
+  .teaser-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .single-teaser-group {
+    width: auto;
+    background-color: grey;
+    margin-bottom: 0.5rem;
+  }
+
+  .full-width {
+    background-color: white;
+    padding: 0 1rem;
+  }
+
+  .second {
+    padding-top: 0;
+  }
+
+  h2 {
+    padding: 2rem 0 1rem;
+  }
+
+  .teaser-group {
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+  .single-teaser-group h3 {
+    padding-bottom: 0;
   }
 
 }
