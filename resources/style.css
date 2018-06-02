@@ -1,6 +1,7 @@
 html {
   font-size: 16px;
-  font-family: 'Space Mono', monospace;
+  font-family: 'Mallanna', sans-serif;
+  color: #4d4d4d;
 }
 
 h2 {
@@ -42,6 +43,11 @@ p, span {
   border-bottom: none;
 }
 
+.side-teaser-text a {
+  color: #5194E3;
+  padding-top: 0.5rem;
+}
+
 /*Header section */
 
 header {
@@ -71,7 +77,7 @@ header ul li {
   display: flex;
   align-items: center;
   padding-left: 0.25rem;
-  color: gray;
+
 }
 
 .logo-and-text img {
@@ -188,7 +194,7 @@ header.mobile {
 /* Group of 6 teasers */
 
   .full-width {
-    background-color: gray;
+    background-color: #EAEBEC;
     width: auto;
     padding: 2rem 4.5rem;
   }
@@ -246,6 +252,23 @@ header.mobile {
   .side-teaser.no-border-bottom {
     border-bottom: none;
   }
+
+  /* Footer */
+
+  footer .flex {
+    width: auto;
+    padding: 1rem 1.5rem 3rem 1.5rem;
+    border-top: solid 2px #A9AAAD;
+  }
+
+  .copyright {
+    flex-grow: 1;
+  }
+
+  .specialpadding {
+    padding-top: 1.5rem;
+  }
+
 
 
 /* Media queries for mobile */
@@ -354,7 +377,7 @@ header ul {
 
   .single-teaser-group {
     width: auto;
-    background-color: grey;
+    background-color: #D8D8D8;
     margin-bottom: 0.5rem;
   }
 
@@ -380,4 +403,14 @@ header ul {
     padding-bottom: 0;
   }
 
+    /* Footer */
+
+  footer a {
+    display: none;
+  }
+
+  footer .flex {
+    padding: 1rem 1.5rem;
+    border-top: none;
+  }
 }
