@@ -177,6 +177,35 @@ header.mobile {
   letter-spacing: -0.5px;
 }
 
+/* Group of 6 teasers */
+
+  .full-width {
+    background-color: gray;
+    width: 100%;
+    padding: 2rem 4.5rem;
+  }
+
+  .title {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .teaser-group {
+    padding: 2rem 0;
+    justify-content: space-between;
+  }
+
+  .single-teaser-group {
+    width: 30%;
+    background-color: white;
+  }
+
+  .single-teaser-image img {
+    width: 100%;
+    height: auto;
+  }
+
+
 /* Media queries for mobile */
 
     /* Navigation */
@@ -240,6 +269,7 @@ header ul {
     flex-direction: column;
     flex-grow: 1;
     padding: 1rem;
+    border-bottom: none;
   }
 
   .image-side-teaser {
@@ -249,6 +279,11 @@ header ul {
 
   .side-teaser-text {
     width: auto;
+    padding: 1rem;
+  }
+
+  .side-teaser-text  a {
+    padding: 1rem 0;
   }
 
   .desktop {
@@ -257,6 +292,10 @@ header ul {
 
   .mobile {
     display: flex;
+  }
+
+  .side-teaser.grey-background {
+    background-color: white;
   }
 
 }
